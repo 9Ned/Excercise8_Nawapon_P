@@ -19,28 +19,24 @@ while run:
                 amount1 = int(input("Please enter amount:"))
                 price1 = 450000 * amount1
                 print("Prict of iMac =", price1)
-
                 break
             elif shoppingList1 == 2:
                 print("You have selected MacBook Pro")
                 amount1 = int(input("Please enter amount:"))
                 price1 = 150000 * amount1
                 print("Prict of MacBook Pro =", price1)
-
                 break
             elif shoppingList1 == 3:
                 print("You have selected iPhone 12 ")
                 amount1 = int(input("Please enter amount:"))
                 price1 = 550000 * amount1
                 print("Prict of iPhone 12 =", price1)
-
                 break
             elif shoppingList1 == 4:
                 print("You have selected iPad pro 12.9 inches")
                 amount1 = int(input("Please enter amount:"))
                 price1 = 450000 * amount1
                 print("Prict of iPad pro 12.9 inches =", price1)
-
                 break
             else:
                 print("Please enter 1-4")
@@ -51,28 +47,24 @@ while run:
                 amount2 = int(input("Please enter amount:"))
                 price2 = 450000 * amount2
                 print("Prict of iMac =", price2)
-
                 run = False
             elif shoppingList2 == 2:
                 print("You have selected MacBook Pro")
                 amount2 = int(input("Please enter amount:"))
                 price2 = 150000 * amount2
                 print("Prict of MacBook Pro =", price2)
-
                 run = False
             elif shoppingList2 == 3:
                 print("You have selected iPhone 12 ")
                 amount2 = int(input("Please enter amount:"))
                 price2 = 550000 * amount2
                 print("Prict of iPhone 12 =", price2)
-
                 run = False
             elif shoppingList2 == 4:
                 print("You have selected iPad pro 12.9 inches")
                 amount2 = int(input("Please enter amount:"))
                 price1 = 450000 * amount2
                 print("Prict of iPad pro 12.9 inches =", price2)
-
                 run = False
             else:
                 print("Please enter 1-4")
